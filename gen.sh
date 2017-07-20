@@ -2,9 +2,9 @@
 
 # Copyright 2017 Sean Kelleher. All rights reserved.
 
-# `$0 <http|https> <out-dir> <domains>` generates Let's Encrypt credentials for
-# a list of comma-separated `domains` to `out-dir` using the local `http` or
-# `https` port of the current host, which must be reachable using `domains`.
+# `$0 <http|https> <domains>` generates Let's Encrypt credentials for a list of
+# comma-separated `domains` using the local `http` or `https` port of the
+# current host, which must be reachable using `domains`.
 
 set -o errexit
 

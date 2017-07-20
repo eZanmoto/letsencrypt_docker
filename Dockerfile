@@ -2,8 +2,7 @@
 
 # Copyright 2017 Sean Kelleher. All rights reserved.
 
-# This Dockerfile is for an image to create Let's Encrypt credentials. See
-# `gen_keys.sh` for details.
+# This Dockerfile is for an image to create Let's Encrypt credentials.
 
 FROM debian:8.6
 
